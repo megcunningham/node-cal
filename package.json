@@ -1,0 +1,27 @@
+{
+  "name": "node-cal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "test-cov": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megcunningham/node-cal.git"
+  },
+  "author": "Meg Cunningham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megcunningham/node-cal/issues"
+  },
+  "homepage": "https://github.com/megcunningham/node-cal#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "istanbul": "^0.3.17",
+    "cldr" : ">=1.0.2"
+  }
+
+}

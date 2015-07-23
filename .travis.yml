@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+ - "0.12"
+script:
+ - npm run test-cov
+notifications:
+  email: false
+after_sucess:
+ -npm run codeclimate-coverageChange package.json "scripts":
